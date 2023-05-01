@@ -1,0 +1,77 @@
+:root{
+    
+}
+
+.wrapper{
+    position: fixed;
+    max-width: 1440px;
+    max-height: 800px;
+    display: fixed;
+    justify-items: center;
+    text-align: left;
+    border-color: hsl(228, 12%, 48%);
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%)translateX(-50%);
+}
+
+.content{
+    display: flex;
+    background-color: white;
+}
+
+img{
+    max-width: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+h3{
+    font-weight: 80;
+}
+
+p{
+    opacity: 80%;
+}
+
+.prices{
+    display: flex;
+    gap: 10%;
+}
+
+.currentPrice{
+    color: darkgreen;
+}
+
+.priviousPrice{
+    position: relative;
+    top: 10%;
+    text-decoration: line-through;
+}
+
+.cart{
+    display: flex;
+    background-color: darkgreen;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+.cartImage{
+    position: relative;
+    max-height: 50%;
+    top: 50%;
+    transform: translateY(-50%)translateX(25%);
+}
+
+.cartText{
+    position: relative;
+    color: white;
+    text-align: center;
+    bottom: 25%;
+    transform: translateX(25%);
+}
